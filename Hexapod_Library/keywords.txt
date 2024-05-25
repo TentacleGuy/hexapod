@@ -1,0 +1,125 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ps2x_ButtonData         KEYWORD1
+ps2x_Analog_PSS_LX      KEYWORD1
+ps2x_Analog_PSS_LY      KEYWORD1    
+ps2x_Analog_PSS_RX      KEYWORD1
+ps2x_Analog_PSS_RY      KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+MSound                  KEYWORD2
+
+SendData                KEYWORD2
+ReceiveAck              KEYWORD2
+ErrorHandle             KEYWORD2
+CheckForSerialData      KEYWORD2
+CheckRxCrc              KEYWORD2    
+
+ReadVoltage             KEYWORD2
+ReadPs2Status           KEYWORD2
+ReadIsWalking           KEYWORD2    
+ReadIsPowerOn           KEYWORD2
+ReadLegAdc              KEYWORD2
+ReadIN1                 KEYWORD2
+
+ReadPs2Values           KEYWORD2
+
+ROBOT_INIT              KEYWORD2
+ROBOT_RESET             KEYWORD2
+ROBOT_MOVE              KEYWORD2
+ROBOT_WALK_FWD          KEYWORD2
+ROBOT_WALK_BWD          KEYWORD2
+ROBOT_WALK_LEFT         KEYWORD2
+ROBOT_WALK_RIGHT        KEYWORD2
+ROBOT_STOP              KEYWORD2
+ROBOT_TURN_LEFT         KEYWORD2
+ROBOT_TURN_RIGHT        KEYWORD2
+ROBOT_PWR_ON            KEYWORD2
+ROBOT_PWR_OFF           KEYWORD2
+ROBOT_HEIGHT            KEYWORD2
+ROBOT_GAINT_MODE        KEYWORD2
+ROBOT_ROTATE_MODE       KEYWORD2
+ROBOT_TRANSLATE_MODE    KEYWORD2
+ROBOT_BALANCE_MODE_ON   KEYWORD2
+ROBOT_BALANCE_MODE_OFF  KEYWORD2
+ROBOT_DOUBLE_HEIGHT_ON  KEYWORD2
+ROBOT_DOUBLE_HEIGHT_OFF KEYWORD2
+ROBOT_DOUBLE_LENGTH_ON  KEYWORD2
+ROBOT_DOUBLE_LENGTH_OFF KEYWORD2
+ROBOT_PLAY_TONE         KEYWORD2
+ROBOT_SPEED             KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+CMD_SYNC0               LITERAL1
+CMD_SYNC1               LITERAL1
+CMD_TERM_BYTE           LITERAL1
+
+CMD_REG_POWER           LITERAL1
+CMD_REG_SPEED           LITERAL1
+CMD_REG_GAINT_MODE      LITERAL1
+CMD_REG_BALANCE_MODE    LITERAL1    
+CMD_REG_BODY_HEIGHT     LITERAL1
+CMD_REG_TRANSLATE       LITERAL1
+CMD_REG_WALK            LITERAL1
+CMD_REG_ROTATE          LITERAL1
+CMD_REG_DOUBLE_HEIGHT   LITERAL1
+CMD_REG_DOUBLE_LENGTH   LITERAL1
+CMD_REG_SINGLE_LEG_POS  LITERAL1
+CMD_REG_SOUND           LITERAL1
+CMD_REG_OUT1            LITERAL1
+CMD_REG_STATUS_LED      LITERAL1
+
+CMD_REG_SA_LEG          LITERAL1
+CMD_REG_AKKU            LITERAL1
+CMD_REG_PS2_ACTIVE      LITERAL1
+CMD_REG_IS_WALKING      LITERAL1
+CMD_REG_IS_POWER_ON     LITERAL1
+CMD_REG_READ_PS2_VALUES LITERAL1
+CMD_REG_IN1             LITERAL1
+
+CMD_REG_RESET           LITERAL1
+
+STATUS_ACK_OK           LITERAL1
+STATUS_ERR_TERM         LITERAL1
+STATUS_ERR_STATE        LITERAL1   
+STATUS_ERR_CRC          LITERAL1
+STATUS_ERR_CMD          LITERAL1
+
+WALKMODE                LITERAL1
+TRANSLATEMODE           LITERAL1
+ROTATEMODE              LITERAL1
+SINGLELEGMODE           LITERAL1
+
+BALANCEMODE_ON          LITERAL1
+BALANCEMODE_OFF         LITERAL1
+
+GAIN_MODES              LITERAL1
+
+T1                      LITERAL1
+T2                      LITERAL1
+PA_PIN                  LITERAL1
+IR_DAT                  LITERAL1
+SU1                     LITERAL1
+SU2                     LITERAL1
+SU3                     LITERAL1
+RXD_U                   LITERAL1
+TXD_U                   LITERAL1
+
+#######################################
+# Constants (LITERAL2)
+#######################################
+
+TRIPOD_6                LITERAL2
+TRIPOD_8                LITERAL2
+TRIPPLE_12              LITERAL2
+TRIPPLE_16              LITERAL2
+RIPPLE_12               LITERAL2    
+WAVE_24                 LITERAL2

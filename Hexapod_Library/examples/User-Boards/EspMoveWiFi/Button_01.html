@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+td {
+    padding: 5px;
+}
+</style>
+
+
+<body>
+    <div class="container">
+        <div align="center">
+            <div class="well well-sm">    
+                <h4>RoboBug</h4>
+            </div>
+            <form action='/' method='POST'>
+                
+                <button style="width: 60px;" type="button submit" name='ON' value='1' class="btn btn-primary">On</button>
+                <button style="width: 60px;" type="button submit" name='OFF' value='1' class="btn btn-primary">Off</button>
+                <button style="width: 60px;" type="button submit" name='UP' value='1' class="btn btn-primary">Up</button>
+                <button style="width: 65px;" type="button submit" name='DOWN' value='1' class="btn btn-primary">Down</button>            
+                
+                <table>            
+                    <br></br>
+                    
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><button style="height: 80px; width: 80px;" type="button submit" name='FWD' value='1' class="btn btn-primary">Forward</button></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td><button style="height: 80px; width: 80px;" type="button submit" name='LEFT' value='1' class="btn btn-primary">Left</button></td>
+                        <td><button style="height: 80px; width: 80px;" type="button submit" name='STOP' value='1' class="btn btn-primary">Stop</button></td>
+                        <td><button style="height: 80px; width: 80px;" type="button submit" name='RIGHT' value='1' class="btn btn-primary">Right</button></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><button style="height: 80px; width: 80px;" type="button submit" name='BWD' value='1' class="btn btn-primary">Backward</button></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>    
+                
+            </form>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

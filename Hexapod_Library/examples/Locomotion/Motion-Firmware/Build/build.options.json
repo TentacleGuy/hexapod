@@ -1,0 +1,10 @@
+{
+  "builtInLibrariesFolders": "",
+  "customBuildProperties": "build.warn_data_percentage=80",
+  "fqbn": "arduino:avr:mega:cpu=atmega2560",
+  "hardwareFolders": "C:\\Arduino\\arduino-1.8.5-windows\\arduino-1.8.5\\hardware,C:\\Users\\CTC\\AppData\\Local\\Arduino15\\packages",
+  "otherLibrariesFolders": "C:\\Arduino\\arduino-1.8.5-windows\\arduino-1.8.5\\libraries,C:\\Arduino\\arduino-1.8.5-windows\\arduino-1.8.5\\hardware\\arduino\\avr\\libraries,C:\\Users\\CTC\\AppData\\Local\\Arduino15,C:\\Users\\CTC\\Documents\\Arduino\\libraries",
+  "runtime.ide.version": "10607",
+  "sketchLocation": "C:\\Users\\CTC\\Desktop\\Ulli Misc\\-- Projekte\\Jr. Ulli\\Library-Demos\\C-Control-Hexapod-V1.0\\examples\\Locomotion\\Motion-Firmware\\Motion-Firmware.ino",
+  "toolsFolders": "C:\\Arduino\\arduino-1.8.5-windows\\arduino-1.8.5\\tools-builder,C:\\Arduino\\arduino-1.8.5-windows\\arduino-1.8.5\\hardware\\tools\\avr"
+}
