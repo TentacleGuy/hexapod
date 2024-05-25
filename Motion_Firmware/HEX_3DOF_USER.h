@@ -199,35 +199,35 @@ Universal dimensions for each leg in mm
 
 /*******************************************************************************
 BODY DIMENSIONS
-45° setup
+30° setup
 *******************************************************************************/
-#define cRRCoxaAngle1   -450    // Default Coxa setup angle, decimals = 1
+#define cRRCoxaAngle1   -300    // Default Coxa setup angle, decimals = 1
 #define cRMCoxaAngle1    0      // Default Coxa setup angle, decimals = 1
-#define cRFCoxaAngle1    450    // Default Coxa setup angle, decimals = 1
-#define cLRCoxaAngle1    -450   // Default Coxa setup angle, decimals = 1
+#define cRFCoxaAngle1    300    // Default Coxa setup angle, decimals = 1
+#define cLRCoxaAngle1    -300   // Default Coxa setup angle, decimals = 1
 #define cLMCoxaAngle1    0      // Default Coxa setup angle, decimals = 1
-#define cLFCoxaAngle1    450    // Default Coxa setup angle, decimals = 1
+#define cLFCoxaAngle1    300    // Default Coxa setup angle, decimals = 1
 
-#define cRROffsetX      -40     // Distance X from center of the body to the Right Rear coxa
-#define cRROffsetZ      100     // Distance Z from center of the body to the Right Rear coxa
-#define cRMOffsetX      -55     // Distance X from center of the body to the Right Middle coxa
+#define cRROffsetX      -30     // Distance X from center of the body to the Right Rear coxa
+#define cRROffsetZ      114     // Distance Z from center of the body to the Right Rear coxa
+#define cRMOffsetX      -67     // Distance X from center of the body to the Right Middle coxa
 #define cRMOffsetZ      0       // Distance Z from center of the body to the Right Middle coxa
-#define cRFOffsetX      -40     // Distance X from center of the body to the Right Front coxa
-#define cRFOffsetZ      -100    // Distance Z from center of the body to the Right Front coxa
+#define cRFOffsetX      -30     // Distance X from center of the body to the Right Front coxa
+#define cRFOffsetZ      -114    // Distance Z from center of the body to the Right Front coxa
 
-#define cLROffsetX      40      // Distance X from center of the body to the Left Rear coxa
-#define cLROffsetZ      100     // Distance Z from center of the body to the Left Rear coxa
-#define cLMOffsetX      55      // Distance X from center of the body to the Left Middle coxa
+#define cLROffsetX      30      // Distance X from center of the body to the Left Rear coxa
+#define cLROffsetZ      114     // Distance Z from center of the body to the Left Rear coxa
+#define cLMOffsetX      67      // Distance X from center of the body to the Left Middle coxa
 #define cLMOffsetZ      0       // Distance Z from center of the body to the Left Middle coxa
-#define cLFOffsetX      40      // Distance X from center of the body to the Left Front coxa
-#define cLFOffsetZ      -100    // Distance Z from center of the body to the Left Front coxa
+#define cLFOffsetX      30      // Distance X from center of the body to the Left Front coxa
+#define cLFOffsetZ      -114    // Distance Z from center of the body to the Left Front coxa
 
 /*******************************************************************************
 START POSITIONS FEET
 ********************************************************************************/
-#define cHexInitXZ      110    // 110 distance coax servo to tibia end (ground contact)
-#define cHexInitXZCos   cos(45) * cHexInitXZ
-#define cHexInitXZSin   sin(45) * cHexInitXZ
+#define cHexInitXZ      188    // 110 distance coax servo to tibia end (ground contact)
+#define cHexInitXZCos   cos(30) * cHexInitXZ
+#define cHexInitXZSin   sin(30) * cHexInitXZ
 #define cHexInitY       35     // Center femur servo after start!
 
 /*******************************************************************************
